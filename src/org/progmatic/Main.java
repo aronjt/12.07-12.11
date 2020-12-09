@@ -7,7 +7,7 @@ import org.progmatic.dec9.ParallelCalculator;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        int[] arr = new int[100000000];
+        int[] arr = new int[100_000_000];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = i;
         }

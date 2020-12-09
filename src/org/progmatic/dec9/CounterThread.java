@@ -16,6 +16,7 @@ public class CounterThread extends Thread {
     public void run() {
         for (int i = startIdx; i < endIdx; i++) {
             sum += Math.sin(toSum[i]);
+           // sum += toSum[i];
         }
     }
 
